@@ -1,0 +1,17 @@
+{
+    "name": "typechain",
+    "version": "1.0.0",
+    "description": "Learning Typescript by making a Blockchain with it",
+    "main": "index.js",
+    "repository": "https://github.com/so00yeon/typechain.git",
+    "author": "so00yeon <96031597+so00yeon@users.noreply.github.com>",
+    "license": "MIT",
+    "scripts": {
+        "start": "tsc-watch --onSuccess\" node dist/index.js\" "
+        // "start": "node index.js", tsc-watch 설치하면서 위와 같이 바꿈 한번에
+        // "prestart": "tsc"
+    },
+    "devDependencies": {
+        "tsc-watch": "^4.6.0"
+    }
+}
